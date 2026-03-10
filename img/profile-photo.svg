@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-label="Showvro Kumar Roy portrait placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#g)"/>
+  <circle cx="320" cy="280" r="120" fill="#e5e7eb"/>
+  <path d="M120 700c30-140 130-210 200-210s170 70 200 210" fill="#e5e7eb"/>
+  <text x="320" y="770" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="32" fill="#ffffff">Showvro Kumar Roy</text>
+</svg>
