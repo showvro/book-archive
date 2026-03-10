@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Showvro Kumar Roy | Portfolio</title>
+  <style>
+    :root{--bg:#f6f8ff;--card:#fff;--text:#111827;--muted:#4b5563;--primary:#3b82f6;--border:#dbe3f4}
+    html[data-theme="dark"]{--bg:#0b1220;--card:#111a2e;--text:#edf2ff;--muted:#a6b2d1;--primary:#7ea6ff;--border:#2b3a5f}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    .container{max-width:1080px;margin:auto;padding:0 20px}
+    header{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .nav{display:flex;justify-content:space-between;align-items:center;min-height:68px}
+    .brand{font-weight:800}.theme{border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:10px;padding:.45rem .75rem;cursor:pointer}
+    .hero{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;padding:48px 0 22px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px}
+    .photo img{width:100%;border-radius:12px;display:block}
+    h1{font-size:clamp(2rem,4vw,3rem);margin:.4rem 0}.eyebrow{color:var(--primary);font-weight:700;margin:0}
+    .muted{color:var(--muted)} section{margin:14px 0}
+    .btn{display:inline-block;text-decoration:none;font-weight:600;padding:.65rem 1rem;border-radius:10px;margin-right:.5rem}
+    .primary{background:var(--primary);color:#fff}.ghost{border:1px solid var(--border);color:var(--text)}
+    .timeline{display:grid;gap:12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    ul{margin:.4rem 0 0 1rem} .tags{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin-top:.8rem}
+    .tags li{padding:.35rem .7rem;border:1px solid var(--border);border-radius:999px}
+    footer{padding:28px 0 36px;text-align:center;color:var(--muted)} a{color:var(--primary)}
+    @media (max-width:860px){.hero,.grid2{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Showvro Roy</div>
+      <button id="toggle" class="theme">🌙</button>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Senior Reservation Officer</p>
+        <h1>Showvro Kumar Roy</h1>
+        <p class="muted">Aviation and travel technology professional with strong GDS/NDC, API integration, ticketing, refund/reissue, and B2B support experience.</p>
+        <a href="#contact" class="btn primary">Contact</a>
+        <a href="#experience" class="btn ghost">Experience</a>
+      </div>
+      <div class="card photo"><img src="./img/profile.jpg" alt="Showvro Kumar Roy" onerror="this.src='https://via.placeholder.com/420x460?text=Add+profile+photo';"></div>
+    </section>
+
+    <section class="card">
+      <h2>Career Objective</h2>
+      <p>Seeking a challenging senior position in aviation and travel technology to apply advanced knowledge of <b>GDS/NDC systems, API integrations, and ticketing operations</b> to optimize workflow and deliver strong customer and B2B support.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <article class="card">
+          <h3>Assistant Manager — Reservation, Ticketing & Refund/Reissue</h3>
+          <p class="muted">Shopno Tour (B2B) · Nov 2025 – Feb 2026 · Dhaka</p>
+          <ul><li>Reservation, ticketing and refund/reissue through Travelport, Sabre and NDC.</li><li>Handled corporate/B2B sales and airline deal management.</li><li>Provided 24/7 support for system issues.</li></ul>
+        </article>
+        <article class="card">
+          <h3>Assistant Manager — API Support & Flight Reservation</h3>
+          <p class="muted">Travel Business Portal (OTA) · Sep 2022 – Oct 2025 · Dhaka</p>
+          <ul><li>Flight reservation, ticketing, refund/reissue, fare rules and airline communication.</li><li>3+ years with Sabre, Travelport and NDC platforms.</li><li>Improved productivity, operational accuracy and compliance.</li><li>Provided API support and integration troubleshooting.</li></ul>
+        </article>
+        <article class="card">
+          <h3>API Analyst & Support</h3>
+          <p class="muted">Primacy Infotech Ltd. · Jul 2021 – Sep 2021 · Dhaka</p>
+          <ul><li>Handled API integration analysis.</li><li>Resolved issues and provided technical support.</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <article class="card"><h2>Skills</h2><ul class="tags"><li>Sabre</li><li>Travelport</li><li>Sabre NDC</li><li>Verteil NDC</li><li>Zenith</li><li>Postman API</li></ul></article>
+      <article class="card"><h2>Strengths</h2><ul><li>Leadership</li><li>Decision-making</li><li>Problem-solving</li><li>Project management</li><li>API analyst support</li></ul></article>
+    </section>
+
+    <section class="grid2">
+      <article class="card"><h2>Education</h2><ul><li>HSC — Sheikh Amanullah Degree College (2019), GPA 4.36</li><li>SSC — Saraskati United High School (2017), GPA 3.68</li></ul></article>
+      <article class="card"><h2>Languages</h2><ul><li>Bangla (Native)</li><li>English (Full Professional)</li><li>Hindi (Full Professional)</li></ul></article>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p><b>Address:</b> 1081/1092, Khilbarirtek, Vatara, Gulshan, Dhaka-1212</p>
+      <p><b>Phone:</b> +880 1518-401743</p>
+      <p><b>Email:</b> <a href="mailto:showvro.roy@gmail.com">showvro.roy@gmail.com</a></p>
+      <p><b>LinkedIn:</b> <a href="https://linkedin.com/in/showvyro" target="_blank">linkedin.com/in/showvyro</a></p>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Showvro Kumar Roy</footer>
+
+  <script>
+    const root=document.documentElement,btn=document.getElementById('toggle');
+    const saved=localStorage.getItem('theme');
+    if(saved){root.dataset.theme=saved;btn.textContent=saved==='dark'?'☀️':'🌙'}
+    btn.addEventListener('click',()=>{const n=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=n;localStorage.setItem('theme',n);btn.textContent=n==='dark'?'☀️':'🌙'})
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
